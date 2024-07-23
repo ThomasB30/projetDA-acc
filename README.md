@@ -22,5 +22,3 @@ https://www.data.gouv.fr/en/datasets/bases-de-donnees-annuelles-des-accidents-co
 - [ ] Modélisation
 - [ ] Rapport final
 - [ ] Streamlit (et/ou PowerBI) + Soutenances
-
-dddf
