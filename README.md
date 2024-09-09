@@ -17,8 +17,8 @@ https://www.data.gouv.fr/en/datasets/bases-de-donnees-annuelles-des-accidents-co
 ## ***Etapes:***
 
 - [x] Découverte des données et du projet
-- [ ] Exploration et analyse des données avec DataViz
-- [ ] Nettoyage et Pre-processing
+- [x] Exploration et analyse des données avec DataViz
+- [-] Nettoyage et Pre-processing
 - [ ] Modélisation
 - [ ] Rapport final
 - [ ] Streamlit (et/ou PowerBI) + Soutenances
