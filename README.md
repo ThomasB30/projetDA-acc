@@ -19,6 +19,6 @@ https://www.data.gouv.fr/en/datasets/bases-de-donnees-annuelles-des-accidents-co
 - [x] Découverte des données et du projet
 - [x] Exploration et analyse des données avec DataViz
 - [x] Nettoyage et Pre-processing
-- [ ] Modélisation
+- [x] Modélisation
 - [ ] Rapport final
 - [ ] Streamlit (et/ou PowerBI) + Soutenances
