@@ -10,6 +10,14 @@ from PIL import Image
 from xplotter.insights import plot_countplot
 import os
 
+def reassembler_fichier(fichier_dest, morceaux):
+    with open(fichier_dest, 'wb') as destination:
+        for morceau in morceaux:
+            with open(morceau, 'rb') as part:
+                destination.write(part.read())
+
+morceaux = ['Data/df_accidents_renamed.csv.part0', 'Data/df_accidents_renamed.csv.part1', 'Data/df_accidents_renamed.csv.part2']
+reassembler_fichier('Data/df_accidents_renamed.csv', morceaux)
 
 # Configuration de la page
 st.set_page_config(
